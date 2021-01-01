@@ -1,0 +1,13 @@
+name: 'Install Terraform'
+description: 'Installs any version of terraform to the current job environment'
+branding:
+  icon: type
+  color: purple
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+inputs:
+  version:
+    description: 'Version of terraform to download'
+    required: true
+# outputs: none
