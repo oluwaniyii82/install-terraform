@@ -13,3 +13,4 @@ exec(`${scriptPath} ${version}`, (error, stdout, stderr) => {
     console.log(`exec error: ${error}`)
   }
 })
+# testing
